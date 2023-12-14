@@ -1,5 +1,5 @@
 .idea/
-**/out/
+.out/
 **/node_modules/
 **/build/
 *.iml
