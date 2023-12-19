@@ -1,5 +1,5 @@
 public abstract class AbstractClass {
-    // La méthode template
+
     public final void templateMethod() {
         stepOne();
         stepTwo();
@@ -7,10 +7,9 @@ public abstract class AbstractClass {
     }
 
     protected void stepOne() {
-        System.out.println("Étape 1: Implémentée dans la classe de base");
+        System.out.println("Step 1: Implemented in the Abstract class");
     }
 
-    // Ces méthodes doivent être implémentées dans les sous-classes
     protected abstract void stepTwo();
     protected abstract void stepThree();
 }
