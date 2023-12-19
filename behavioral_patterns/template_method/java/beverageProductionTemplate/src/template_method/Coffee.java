@@ -1,4 +1,4 @@
-package beverageProductionTemplate;
+package template_method;
 
 public class Coffee extends BeverageProductionTemplate {
 

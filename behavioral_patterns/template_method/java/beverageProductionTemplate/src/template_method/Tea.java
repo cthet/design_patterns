@@ -1,4 +1,4 @@
-package beverageProductionTemplate;
+package template_method;
 
 public class Tea extends BeverageProductionTemplate {
 

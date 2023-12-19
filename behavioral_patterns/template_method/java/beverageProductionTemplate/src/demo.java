@@ -1,6 +1,6 @@
-import beverageProductionTemplate.BeverageProductionTemplate;
-import beverageProductionTemplate.Coffee;
-import beverageProductionTemplate.Tea;
+import template_method.BeverageProductionTemplate;
+import template_method.Coffee;
+import template_method.Tea;
 
 import java.io.BufferedReader;
 import java.io.IOException;

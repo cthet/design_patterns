@@ -1,4 +1,4 @@
-package beverageProductionTemplate;
+package template_method;
 
 public abstract class BeverageProductionTemplate {
     boolean customerWantsCondiments = false;
