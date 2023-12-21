@@ -1,6 +1,9 @@
 ## Strategy
 
-The Strategy design pattern is a behavioral design pattern that enables selecting an algorithm's behavior at runtime. It involves defining a family of algorithms, encapsulating each one, and making them interchangeable. The key elements of this pattern are:
+The Strategy design pattern is a behavioral design pattern that enables selecting an algorithm's behavior at runtime. It involves defining a family of algorithms, encapsulating each one, and making them interchangeable.
+
+
+### How It Works
 
 1. **Strategy Interface**: This defines a common interface for all supported algorithms. Each algorithm encapsulated by the Strategy pattern implements this interface.
 

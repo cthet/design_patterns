@@ -4,7 +4,7 @@ Mediator is a behavioral design pattern that reduces coupling between components
 
 The Mediator is a centralized intermediary through which different components of a system can communicate and interact. Instead of components calling each other directly, they use a mediator object to facilitate and control the interaction. This reduces the direct dependencies between the components, promoting looser coupling and easier maintainability.
 
-Key components of the Mediator pattern include:
+### How It Works:
 
 1. **Mediator Interface**: Defines the interface for communication and interaction, typically with methods for sending and receiving messages or data.
 
