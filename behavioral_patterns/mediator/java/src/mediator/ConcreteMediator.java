@@ -15,10 +15,10 @@ public class ConcreteMediator implements Mediator {
     }
 
     @Override
-    public void send(String message, Component originator) {
+    public void send(String message, Component source) {
         for (Component component : components) {
-            // Don't notify the originator
-            if (component != originator) {
+            // Don't notify the source
+            if (component != source) {
                 component.receive(message);
             }
         }

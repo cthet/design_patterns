@@ -12,7 +12,7 @@ public class Client {
         mediator.addComponent(component1);
         mediator.addComponent(component2);
 
-        component1.send("Message from Component1");
-        component2.send("Message from Component2");
+        component1.send("Message from Component1"); // ConcreteComponent2 received: Message from Component1
+        component2.send("Message from Component2"); // ConcreteComponent1 received: Message from Component2
     }
 }

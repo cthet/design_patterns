@@ -12,9 +12,12 @@ public class Client {
         observable.subscribe(observerB);
 
         observable.setState("state changed");
+        //Observer A is notified.
+        //Observer B is notified.
 
         observable.unsubscribe(observerA);
 
         observable.setState("another state changed");
+        //Observer B is notified.
     }
 }
