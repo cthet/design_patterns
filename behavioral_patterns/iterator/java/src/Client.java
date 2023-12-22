@@ -1,5 +1,5 @@
-import Iterator.ConcreteAggregate;
-import Iterator.Iterator;
+import iterator.ConcreteAggregate;
+import iterator.Iterator;
 
 public class Client {
     public static void main(String[] args) {
