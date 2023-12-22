@@ -1,5 +1,4 @@
-package chain_of_responsibility;
-
+package src;
 
 public class ConcreteHandler1 extends AbstractHandler {
     @Override

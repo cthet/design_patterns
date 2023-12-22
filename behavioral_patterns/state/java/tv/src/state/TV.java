@@ -1,3 +1,5 @@
+package state;
+
 public class TV {
     private State state;
 

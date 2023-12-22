@@ -12,6 +12,6 @@ The Command design pattern is a behavioral design pattern that turns a request i
 
 4. **Invoker:** Asks the command to execute the request. It holds a command and at some point asks the command to do something.
 
-5. **Client:** Creates ConcreteCommand instances and sets their receiver. It might also configure the Invoker.
+5. **command.iterator.mediator.memento.observer.state.state.strategy.template_method.visitor.src.adapter.src.media_adapter.Client:** Creates ConcreteCommand instances and sets their receiver. It might also configure the Invoker.
 
 By decoupling the sender and receiver, the Command pattern allows for a high degree of flexibility in designing command structures, such as creating complex commands from simpler ones.

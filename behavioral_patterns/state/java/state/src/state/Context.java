@@ -1,3 +1,5 @@
+package state;
+
 public class Context {
     private AbstractState state;
 

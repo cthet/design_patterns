@@ -1,4 +1,4 @@
-package chain_of_responsibility;
+package src;
 
 public abstract class AbstractHandler {
     private AbstractHandler nextHandler;

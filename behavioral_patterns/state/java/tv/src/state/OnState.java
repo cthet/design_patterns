@@ -1,3 +1,5 @@
+package state;
+
 public class OnState extends State {
     @Override
     public void pressPowerButton(TV context) {

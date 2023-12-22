@@ -1,3 +1,5 @@
+package state;
+
 public class ConcreteStateC extends AbstractState {
     @Override
     public void handle(Context context) {

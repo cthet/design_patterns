@@ -11,6 +11,6 @@ The Strategy design pattern is a behavioral design pattern that enables selectin
 
 3. **Context**: This class maintains a reference to a Strategy object. It may define an interface that lets Strategy access its data. The Context does not know the concrete class of a Strategy. It should work with all Strategies via the Strategy interface.
 
-4. **Client**: The client chooses a Concrete Strategy and passes it to the Context. The Context calls the algorithm defined by the chosen Strategy.
+4. **command.iterator.mediator.memento.observer.state.state.strategy.template_method.visitor.src.adapter.src.media_adapter.Client**: The client chooses a Concrete Strategy and passes it to the Context. The Context calls the algorithm defined by the chosen Strategy.
 
 The main advantage of the Strategy pattern is that it promotes a set of algorithms to be defined and encapsulated within their own class. This not only makes a set of algorithms easier to manage and use but also promotes more flexible and reusable code, as the Context can switch strategies based on the situation at runtime.

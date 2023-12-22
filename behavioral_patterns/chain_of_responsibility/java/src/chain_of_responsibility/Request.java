@@ -1,4 +1,4 @@
-package chain_of_responsibility;
+package src;
 
 public class Request {
     private String type;
