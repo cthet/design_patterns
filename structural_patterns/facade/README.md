@@ -8,7 +8,7 @@ The Facade design pattern is a structural pattern that provides a simplified int
 
 2. **Subsystem Complexity:** The subsystem itself can be composed of several different classes with their own complex methods and interactions. The complexity of the subsystem remains, but the facade attempts to hide this complexity from the client.
 
-3. **singleton.factory_method.Client Interaction:** The client interacts with the subsystem through the facade. This interaction is much simpler than directly dealing with the subsystem, as the facade provides high-level methods for the client to use.
+3. **Client Interaction:** The client interacts with the subsystem through the facade. This interaction is much simpler than directly dealing with the subsystem, as the facade provides high-level methods for the client to use.
 
 **Advantages:**
 
