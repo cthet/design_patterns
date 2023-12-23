@@ -12,7 +12,7 @@ The Composite design pattern is a structural design pattern that allows you to c
 
 **Advantages:**
 
-1. **Simplified singleton.factory.Client Code:** Clients can treat composite structures and individual objects uniformly without being concerned about their concrete classes. This simplifies client code when dealing with complex tree structures.
+1. **Simplified singleton.factory_method.Client Code:** Clients can treat composite structures and individual objects uniformly without being concerned about their concrete classes. This simplifies client code when dealing with complex tree structures.
 
 2. **Flexibility in Structure:** The composite pattern allows for building complex objects by recursively composing them in a tree structure. This provides great flexibility in defining structures that can be as deep and as complex as needed.
 

@@ -12,7 +12,7 @@ The Visitor design pattern is a behavioral design pattern that allows you to sep
 
 4. **Concrete Element:** These classes implement the Element interface and define the `accept` method. The accept method usually calls the visit method on the visitor, passing itself as an argument.
 
-5. **command.iterator.mediator.memento.observer.state.state.strategy.template_method.visitor.src.adapter.src.media_adapter.singleton.factory.Client:** The client creates Visitor objects and Element objects, and then it gives each element the visitor to execute the relevant operation.
+5. **command.iterator.mediator.memento.observer.state.state.strategy.template_method.visitor.src.adapter.src.media_adapter.singleton.factory_method.Client:** The client creates Visitor objects and Element objects, and then it gives each element the visitor to execute the relevant operation.
 
 **Advantages:**
 

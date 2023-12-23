@@ -12,7 +12,7 @@ The Flyweight design pattern is a structural pattern used to minimize memory usa
 
 4. **Concrete Flyweight:** Implements the Flyweight interface and stores intrinsic state. The same instance of Concrete Flyweight can be used in different contexts with different extrinsic states.
 
-5. **Flyweight Factory:** Manages flyweight objects and creates them. It ensures that flyweights are shared correctly. When a client requests a flyweight, the factory either returns an existing instance or creates a new one if an appropriate one doesn’t exist.
+5. **Flyweight Factory:** Manages flyweight objects and creates them. It ensures that flyweights are shared correctly. When a client requests a flyweight, the factory_method either returns an existing instance or creates a new one if an appropriate one doesn’t exist.
 
 **Advantages:**
 
