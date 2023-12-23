@@ -1,3 +1,5 @@
+package singleton;
+
 public class Singleton {
     private static Singleton instance;
 
@@ -11,6 +13,6 @@ public class Singleton {
     }
 
     public void someBusinessLogic() {
-        System.out.println("Business logic from Singleton.");
+        System.out.println("Business logic from singleton.");
     }
 }
