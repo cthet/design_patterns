@@ -1,0 +1,12 @@
+public class SavingsAccount extends BankAccount {
+
+  @Override
+  public void withdraw(BigDecimal amount) {
+    if (amount.compareTo(balance)<=0) {
+      this.balance = this.balance.substract(amount);
+      System.out.println("Retrait de " + amount + " euros. Nouveau solde: " + balance);
+    } else {
+      System.out.println("Solde insuffisant pour le retrait");
+    }
+  }
+}
